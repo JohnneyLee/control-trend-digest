@@ -1,0 +1,157 @@
+{
+  "timezone": "Asia/Singapore",
+  "outputDir": "daily",
+  "site": {
+    "title": "控制理论导向 GitHub 趋势日报",
+    "description": "面向 ROS2、Gazebo、MPC、CBF、Lyapunov、状态估计、自动驾驶和仿真的 GitHub 趋势摘要。",
+    "outputDir": "public",
+    "baseUrl": ""
+  },
+  "maxItems": 20,
+  "minKeywordMatches": 1,
+  "requireLanguage": true,
+  "matchReadme": false,
+  "excludePatterns": [
+    "(^|/)awesome",
+    "internship",
+    "jobs",
+    "subtitl",
+    "arxiv",
+    "papers"
+  ],
+  "trending": {
+    "baseUrl": "https://github.com/trending",
+    "since": "daily",
+    "languages": [
+      "",
+      "python",
+      "c++",
+      "matlab",
+      "julia",
+      "rust",
+      "go",
+      "javascript",
+      "typescript"
+    ]
+  },
+  "searchSupplement": {
+    "enabled": true,
+    "lookbackDays": 30,
+    "minStars": 20,
+    "perKeyword": 2
+  },
+  "keywords": [
+    {
+      "label": "ROS2",
+      "weight": 4,
+      "searchQuery": "ros2 robotics in:name,description",
+      "aliases": ["ros2", "ros 2", "robot operating system 2", "rclcpp", "rclpy", "nav2"],
+      "why": "把控制器设计接入可部署的机器人中间件和实时消息接口",
+      "insertion": "将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数"
+    },
+    {
+      "label": "Gazebo",
+      "weight": 3,
+      "searchQuery": "gazebo robotics in:name,description",
+      "aliases": ["gazebo", "ignition gazebo", "gz sim"],
+      "why": "提供闭环仿真环境，可在硬件测试前验证控制律",
+      "insertion": "加入 Gazebo world、被控对象插件、传感器噪声模型和 controller-in-the-loop benchmark"
+    },
+    {
+      "label": "robotics",
+      "weight": 2,
+      "searchQuery": "robotics controller in:name,description",
+      "aliases": ["robotics", "robotic", "mobile robot", "manipulator", "quadruped", "uav", "drone"],
+      "why": "提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证",
+      "insertion": "明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口"
+    },
+    {
+      "label": "trajectory tracking",
+      "weight": 5,
+      "searchQuery": "\"trajectory tracking\" robot in:name,description",
+      "aliases": ["trajectory tracking", "path tracking", "trajectory following", "tracking control", "pure pursuit", "stanley controller"],
+      "why": "直接对应跟踪误差动力学、鲁棒裕度和闭环性能指标",
+      "insertion": "加入参考轨迹生成、跟踪误差曲线，以及扰动条件下的控制器对比实验"
+    },
+    {
+      "label": "MPC",
+      "weight": 5,
+      "searchQuery": "\"model predictive control\" in:name,description",
+      "aliases": ["mpc", "model predictive control", "predictive control", "receding horizon", "acados", "do mpc"],
+      "why": "支持带显式代价函数、预测时域和执行器约束的约束最优控制",
+      "insertion": "写出预测模型、目标函数、约束、终端集合和求解器接口"
+    },
+    {
+      "label": "CBF",
+      "weight": 5,
+      "searchQuery": "\"control barrier function\" in:name,description",
+      "aliases": ["cbf", "control barrier function", "barrier certificate", "safety filter", "safe set"],
+      "why": "把安全需求转化为可验证的正向不变性约束",
+      "insertion": "加入二次规划安全过滤器，并给出 barrier 条件和可行输入集合"
+    },
+    {
+      "label": "Lyapunov",
+      "weight": 5,
+      "searchQuery": "lyapunov control in:name,description",
+      "aliases": ["lyapunov", "clf", "control lyapunov", "stability proof", "asymptotic stability"],
+      "why": "可把稳定性结论和代码中的控制器假设对应起来",
+      "insertion": "给出 Lyapunov 候选函数，推导下降条件，并用仿真轨迹检验该条件"
+    },
+    {
+      "label": "optimization",
+      "weight": 3,
+      "searchQuery": "\"optimal control\" in:name,description",
+      "aliases": ["optimization", "optimisation", "optimizer", "nonlinear programming", "quadratic programming", "qp", "socp", "ipopt", "osqp", "casadi"],
+      "why": "为 MPC、状态估计、逆动力学和约束控制提供数值求解基础",
+      "insertion": "提取决策变量、约束、求解器容差和 warm-start 策略"
+    },
+    {
+      "label": "control toolbox",
+      "weight": 4,
+      "searchQuery": "\"control systems\" toolbox in:name,description",
+      "aliases": ["control toolbox", "control systems toolbox", "python control", "control library", "control systems library", "control-toolbox", "drake"],
+      "why": "可作为建模、系统分析和控制器综合的可复用基础设施",
+      "insertion": "补充 LQR、极点配置、频率响应、离散化和非线性仿真的标准示例"
+    },
+    {
+      "label": "autonomous driving",
+      "weight": 4,
+      "searchQuery": "\"autonomous driving\" in:name,description",
+      "aliases": ["autonomous driving", "self driving", "autonomous vehicle", "adas", "autoware", "carla"],
+      "why": "把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中",
+      "insertion": "围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器"
+    },
+    {
+      "label": "simulation",
+      "weight": 2,
+      "searchQuery": "\"robot simulation\" in:name,description",
+      "aliases": ["simulation", "simulator", "mujoco", "isaac sim", "webots", "carla", "model in the loop", "hardware in the loop"],
+      "why": "支持扰动抑制、模型失配和控制器对比的可重复实验",
+      "insertion": "定义闭环实验场景、扰动、评价指标和可复现实验种子"
+    },
+    {
+      "label": "state estimation",
+      "weight": 5,
+      "searchQuery": "\"state estimation\" robotics in:name,description",
+      "aliases": ["state estimation", "kalman", "ekf", "ukf", "particle filter", "factor graph", "localization", "slam"],
+      "why": "在噪声和部分观测条件下，为控制器提供反馈状态",
+      "insertion": "加入估计器模块，给出过程模型、测量模型、协方差调参和残差检查"
+    },
+    {
+      "label": "observer",
+      "weight": 5,
+      "searchQuery": "\"disturbance observer\" control in:name,description",
+      "aliases": ["observer", "luenberger", "disturbance observer", "dob", "extended state observer", "eso", "high gain observer"],
+      "why": "把传感器受限的实现和基于观测器的反馈设计连接起来",
+      "insertion": "推导观测误差动力学，并给出增益选择、收敛性和鲁棒性测试"
+    },
+    {
+      "label": "digital twin",
+      "weight": 3,
+      "searchQuery": "\"digital twin\" robotics in:name,description",
+      "aliases": ["digital twin", "plant twin", "virtual commissioning", "model calibration"],
+      "why": "连接模型保真度、在线辨识和控制器行为验证",
+      "insertion": "加入模型校准、twin-vs-plant 残差指标和控制器回归测试场景"
+    }
+  ]
+}

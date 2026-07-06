@@ -1,0 +1,13 @@
+{
+  "name": "control-theory-github-trend-digest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Control-theory-oriented GitHub trend digest adapted from vitalets/github-trending-repos.",
+  "scripts": {
+    "daily": "node scripts/generate-daily.mjs",
+    "site": "node scripts/build-site.mjs",
+    "notify": "node scripts/notify.mjs"
+  },
+  "license": "MIT"
+}

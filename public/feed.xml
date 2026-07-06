@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>控制理论导向 GitHub 趋势日报</title>
+    <link>.</link>
+    <description>面向 ROS2、Gazebo、MPC、CBF、Lyapunov、状态估计、自动驾驶和仿真的 GitHub 趋势摘要。</description>
+    <language>zh-CN</language>
+    
+    <item>
+      <title>2026-07-06 控制理论趋势日报</title>
+      <link>daily/2026-07-06.html</link>
+      <guid>daily/2026-07-06.html</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>入选 11 个仓库：behnamasadi/robotic_notes、carla-simulator/carla、gazebosim/gz-sim、dfl-rlab/dddmr_navigation、ros-controls/ros2_controllers</description>
+    </item>
+  </channel>
+</rss>
