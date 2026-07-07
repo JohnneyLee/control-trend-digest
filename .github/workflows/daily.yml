@@ -2,6 +2,16 @@ name: control-theory-trend-digest
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/daily.yml"
+      - "config/**"
+      - "scripts/**"
+      - "package.json"
+      - "README.md"
+      - "PUBLISH.md"
   schedule:
     - cron: "30 23 * * *"
 
@@ -27,7 +37,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Generate daily digest
         run: node scripts/generate-daily.mjs
@@ -53,6 +63,8 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
