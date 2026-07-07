@@ -1,12 +1,18 @@
-# Control-Theory-Oriented GitHub Trend Digest
+# Personal Control-Theory GitHub Trend Digest
 
-This project is a focused adaptation of
+This is a personal research-tool project for tracking GitHub repositories that
+matter to control theory, robotics, and autonomous systems. It is a focused
+adaptation of
 [vitalets/github-trending-repos](https://github.com/vitalets/github-trending-repos),
 not a fresh GitHub trend system. The original project already contains the useful
 piece for this task: a GitHub Trending page collector that extracts repository
 name, description, language, total stars, forks, and daily stars. This fork keeps
 that source route and changes the output target from GitHub issue comments to
 versioned Markdown files under `daily/`.
+
+The project is scoped for individual use: daily reading, research scouting,
+idea triage, and identifying practical control-theory insertion points. It is
+not intended to be a general public GitHub Trending clone.
 
 ## Route Decision
 
@@ -92,7 +98,8 @@ The generated file is:
 daily/YYYY-MM-DD.md
 ```
 
-The Markdown digest is rendered in Chinese by default. Repository names, links,
+The Markdown digest is rendered in Chinese by default for personal reading.
+Repository names, links,
 metrics, and language are preserved as source metadata; field labels,
 one-line summaries, control-theory rationale, theory insertion points, Codex
 practicality judgments, and priority labels are localized. If GitHub does not
@@ -115,8 +122,8 @@ committing the generated digest back to the repository.
 
 ## Recommended Reading Flow
 
-Markdown is kept as the auditable source format, but it is not the main reading
-surface. The recommended user-facing setup is GitHub Pages plus RSS:
+Markdown is kept as the auditable source format, but it is not the main personal
+reading surface. The recommended setup is GitHub Pages plus RSS:
 
 - `public/index.html`: latest digest dashboard with compact cards.
 - `public/daily/YYYY-MM-DD.html`: full daily reading page.
