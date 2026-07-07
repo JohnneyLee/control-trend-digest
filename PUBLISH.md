@@ -1,6 +1,6 @@
-# Publish and Enable Daily Pages
+# Publish Personal Daily Pages
 
-The project is already configured for automatic daily publishing through
+This personal digest project is already configured for automatic daily publishing through
 GitHub Actions and GitHub Pages.
 
 ## One-time publish
