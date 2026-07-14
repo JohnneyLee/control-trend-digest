@@ -14,7 +14,7 @@
       <div>
         <p class="eyebrow">Daily Digest</p>
         <h1>2026-07-14 控制理论趋势日报</h1>
-        <p class="lead">候选仓库 143 个，入选 18 个。</p>
+        <p class="lead">候选仓库 144 个，入选 18 个。</p>
       </div>
       <div class="status">
         <span>RSS / Web</span>
@@ -68,6 +68,27 @@
       <section><h3>可插入的理论点</h3><p>写出预测模型、目标函数、约束、终端集合和求解器接口；补充 LQR、极点配置、频率响应、离散化和非线性仿真的标准示例</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>search:optimization</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/gazebosim/gz-sim">gazebosim/gz-sim</a></h2>
+          <p class="summary">这是一个开源机器人仿真平台，聚焦ROS2、Gazebo 仿真、机器人、仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
+        </div>
+        <span class="priority">高 (high)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>1411</dd></div>
+        <div><dt>Forks</dt><dd>429</dd></div>
+        <div><dt>语言</dt><dd>C++</dd></div>
+        <div><dt>最近更新</dt><dd>2026-07-14</dd></div>
+      </dl>
+      <div class="tags"><span>ROS2</span><span>Gazebo</span><span>robotics</span><span>simulation</span></div>
+      <section><h3>对控制理论的意义</h3><p>ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口；Gazebo：提供闭环仿真环境，可在硬件测试前验证控制律；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
+      <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；加入 Gazebo world、被控对象插件、传感器噪声模型和 controller-in-the-loop benchmark</p></section>
+      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
+      <footer>search:Gazebo</footer>
     </article>
 
     <article class="detail">
@@ -256,7 +277,7 @@
       <section><h3>对控制理论的意义</h3><p>Gazebo：提供闭环仿真环境，可在硬件测试前验证控制律；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证；simulation：支持扰动抑制、模型失配和控制器对比的可重复实验</p></section>
       <section><h3>可插入的理论点</h3><p>加入 Gazebo world、被控对象插件、传感器噪声模型和 controller-in-the-loop benchmark；明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口</p></section>
       <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
-      <footer>search:Gazebo</footer>
+      <footer>search:simulation</footer>
     </article>
 
     <article class="detail">
@@ -341,27 +362,6 @@
       <section><h3>可插入的理论点</h3><p>加入模型校准、twin-vs-plant 残差指标和控制器回归测试场景；明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口</p></section>
       <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
       <footer>search:digital twin</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
-          <h2><a href="https://github.com/aws-solutions/deepracer-on-aws">aws-solutions/deepracer-on-aws</a></h2>
-          <p class="summary">这是一个TypeScript 开源项目，聚焦自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">低 (low)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>20</dd></div>
-        <div><dt>Forks</dt><dd>6</dd></div>
-        <div><dt>语言</dt><dd>TypeScript</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-13</dd></div>
-      </dl>
-      <div class="tags"><span>autonomous driving</span></div>
-      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
-      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
     </article>
 
     <article class="detail">
