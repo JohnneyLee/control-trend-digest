@@ -14,11 +14,11 @@
       <div>
         <p class="eyebrow">Daily Digest</p>
         <h1>2026-07-19 控制理论趋势日报</h1>
-        <p class="lead">候选仓库 136 个，入选 17 个。</p>
+        <p class="lead">候选仓库 137 个，入选 15 个。</p>
       </div>
       <div class="status">
         <span>RSS / Web</span>
-        <strong>17</strong>
+        <strong>15</strong>
         <span>cards</span>
       </div>
     </section>
@@ -37,8 +37,8 @@
         <span class="priority">高 (high)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>36594</dd></div>
-        <div><dt>Forks</dt><dd>3029</dd></div>
+        <div><dt>Stars</dt><dd>36633</dd></div>
+        <div><dt>Forks</dt><dd>3032</dd></div>
         <div><dt>语言</dt><dd>Python</dd></div>
         <div><dt>最近更新</dt><dd>2026-07-19</dd></div>
       </dl>
@@ -136,27 +136,6 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/RobotnikAutomation/robotnik_simulation">RobotnikAutomation/robotnik_simulation</a></h2>
-          <p class="summary">根据 README 判断，这是一个Python 开源项目，聚焦ROS2、Gazebo 仿真、机器人、仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
-        </div>
-        <span class="priority">高 (high)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>64</dd></div>
-        <div><dt>Forks</dt><dd>34</dd></div>
-        <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-16</dd></div>
-      </dl>
-      <div class="tags"><span>ROS2</span><span>Gazebo</span><span>robotics</span><span>simulation</span></div>
-      <section><h3>对控制理论的意义</h3><p>ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口；Gazebo：提供闭环仿真环境，可在硬件测试前验证控制律；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
-      <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；加入 Gazebo world、被控对象插件、传感器噪声模型和 controller-in-the-loop benchmark</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:simulation</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/JuliaControl/ControlSystems.jl">JuliaControl/ControlSystems.jl</a></h2>
           <p class="summary">这是一个控制与机器人相关软件库，聚焦控制工具箱、状态估计，主要用于完成定位、SLAM、VIO/LIO 或传感器状态估计，并为反馈控制提供状态量。</p>
         </div>
@@ -173,27 +152,6 @@
       <section><h3>可插入的理论点</h3><p>加入估计器模块，给出过程模型、测量模型、协方差调参和残差检查；补充 LQR、极点配置、频率响应、离散化和非线性仿真的标准示例</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>search:control toolbox</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
-          <h2><a href="https://github.com/carla-simulator/carla">carla-simulator/carla</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦自动驾驶、仿真，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">中 (medium)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>14184</dd></div>
-        <div><dt>Forks</dt><dd>4630</dd></div>
-        <div><dt>语言</dt><dd>C++</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-18</dd></div>
-      </dl>
-      <div class="tags"><span>autonomous driving</span><span>simulation</span></div>
-      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中；simulation：支持扰动抑制、模型失配和控制器对比的可重复实验</p></section>
-      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器；定义闭环实验场景、扰动、评价指标和可复现实验种子</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
     </article>
 
     <article class="detail">
@@ -262,27 +220,6 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/Farama-Foundation/HighwayEnv">Farama-Foundation/HighwayEnv</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">中 (medium)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>3294</dd></div>
-        <div><dt>Forks</dt><dd>885</dd></div>
-        <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-18</dd></div>
-      </dl>
-      <div class="tags"><span>autonomous driving</span></div>
-      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
-      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/THU-RCSCT/vlsa-aegis">THU-RCSCT/vlsa-aegis</a></h2>
           <p class="summary">这是一个安全控制研究原型，聚焦控制障碍函数，主要用于把安全约束或控制障碍函数接入动作层，形成可验证的安全过滤机制。</p>
         </div>
@@ -304,16 +241,16 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/isaac-sim/IsaacLab-Arena">isaac-sim/IsaacLab-Arena</a></h2>
-          <p class="summary">这是一个控制与机器人相关软件库，聚焦机器人、仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
+          <h2><a href="https://github.com/Farama-Foundation/Gymnasium-Robotics">Farama-Foundation/Gymnasium-Robotics</a></h2>
+          <p class="summary">这是一个Python 开源项目，聚焦机器人、仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
         </div>
         <span class="priority">中 (medium)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>486</dd></div>
-        <div><dt>Forks</dt><dd>72</dd></div>
+        <div><dt>Stars</dt><dd>940</dd></div>
+        <div><dt>Forks</dt><dd>136</dd></div>
         <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-18</dd></div>
+        <div><dt>最近更新</dt><dd>2026-07-19</dd></div>
       </dl>
       <div class="tags"><span>robotics</span><span>simulation</span></div>
       <section><h3>对控制理论的意义</h3><p>robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证；simulation：支持扰动抑制、模型失配和控制器对比的可重复实验</p></section>
@@ -362,6 +299,27 @@
       <section><h3>可插入的理论点</h3><p>加入模型校准、twin-vs-plant 残差指标和控制器回归测试场景；明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口</p></section>
       <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
       <footer>search:digital twin</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/allenai/vla-evaluation-harness">allenai/vla-evaluation-harness</a></h2>
+          <p class="summary">这是一个控制与机器人相关软件库，聚焦仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
+        </div>
+        <span class="priority">低 (low)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>453</dd></div>
+        <div><dt>Forks</dt><dd>39</dd></div>
+        <div><dt>语言</dt><dd>Python</dd></div>
+        <div><dt>最近更新</dt><dd>2026-07-18</dd></div>
+      </dl>
+      <div class="tags"><span>simulation</span></div>
+      <section><h3>对控制理论的意义</h3><p>simulation：支持扰动抑制、模型失配和控制器对比的可重复实验</p></section>
+      <section><h3>可插入的理论点</h3><p>定义闭环实验场景、扰动、评价指标和可复现实验种子</p></section>
+      <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
+      <footer>search:simulation</footer>
     </article>
 
     <article class="detail">
