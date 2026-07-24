@@ -157,27 +157,6 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/mowglinext/mowglinext">mowglinext/mowglinext</a></h2>
-          <p class="summary">这是一个C++ 开源项目，聚焦ROS2、状态估计，主要用于完成定位、SLAM、VIO/LIO 或传感器状态估计，并为反馈控制提供状态量。</p>
-        </div>
-        <span class="priority">高 (high)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>25</dd></div>
-        <div><dt>Forks</dt><dd>22</dd></div>
-        <div><dt>语言</dt><dd>C++</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-23</dd></div>
-      </dl>
-      <div class="tags"><span>state estimation</span><span>ROS2</span></div>
-      <section><h3>对控制理论的意义</h3><p>state estimation：在噪声和部分观测条件下，为控制器提供反馈状态；ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口</p></section>
-      <section><h3>可插入的理论点</h3><p>加入估计器模块，给出过程模型、测量模型、协方差调参和残差检查；将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:ROS2</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/qpsolvers/mpc_qpbenchmark">qpsolvers/mpc_qpbenchmark</a></h2>
           <p class="summary">这是一个模型预测控制软件包，聚焦模型预测控制、优化与最优控制，主要用于构建和求解带约束的模型预测控制问题。</p>
         </div>
@@ -257,6 +236,27 @@
       <section><h3>可插入的理论点</h3><p>加入二次规划安全过滤器，并给出 barrier 条件和可行输入集合</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>search:CBF</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/HighTorque-Robotics/Panthera-HT_ROS2">HighTorque-Robotics/Panthera-HT_ROS2</a></h2>
+          <p class="summary">这是一个Java 开源项目，聚焦ROS2、机器人，主要用于把控制器或机器人功能接入 ROS2 通信、参数和部署流程。</p>
+        </div>
+        <span class="priority">中 (medium)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>55</dd></div>
+        <div><dt>Forks</dt><dd>4</dd></div>
+        <div><dt>语言</dt><dd>Java</dd></div>
+        <div><dt>最近更新</dt><dd>2026-07-24</dd></div>
+      </dl>
+      <div class="tags"><span>ROS2</span><span>robotics</span></div>
+      <section><h3>对控制理论的意义</h3><p>ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
+      <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口</p></section>
+      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
+      <footer>search:ROS2</footer>
     </article>
 
     <article class="detail">
@@ -346,20 +346,20 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/t413/omnictrl">t413/omnictrl</a></h2>
-          <p class="summary">这是一个C++ 开源项目，聚焦机器人，主要用于支撑机器人相关的实现、实验或二次开发。</p>
+          <h2><a href="https://github.com/flexivrobotics/isaac_sim_ws">flexivrobotics/isaac_sim_ws</a></h2>
+          <p class="summary">这是一个Python 开源项目，聚焦仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
         </div>
         <span class="priority">低 (low)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>27</dd></div>
+        <div><dt>Stars</dt><dd>33</dd></div>
         <div><dt>Forks</dt><dd>4</dd></div>
-        <div><dt>语言</dt><dd>C++</dd></div>
-        <div><dt>最近更新</dt><dd>2026-07-22</dd></div>
+        <div><dt>语言</dt><dd>Python</dd></div>
+        <div><dt>最近更新</dt><dd>2026-07-24</dd></div>
       </dl>
-      <div class="tags"><span>robotics</span></div>
-      <section><h3>对控制理论的意义</h3><p>robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
-      <section><h3>可插入的理论点</h3><p>明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口</p></section>
+      <div class="tags"><span>simulation</span></div>
+      <section><h3>对控制理论的意义</h3><p>simulation：支持扰动抑制、模型失配和控制器对比的可重复实验</p></section>
+      <section><h3>可插入的理论点</h3><p>定义闭环实验场景、扰动、评价指标和可复现实验种子</p></section>
       <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
       <footer>search:robotics</footer>
     </article></section></main>
