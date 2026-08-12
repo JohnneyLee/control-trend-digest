@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-08-12 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-12.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-12.html</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>入选 20 个仓库：iit-DLSLab/Quadruped-PyMPC、loco-3d/crocoddyl、gazebosim/gz-sim、bardhh/cbfkit、krillinai/KrillinAI</description>
+    </item>
+
+    <item>
       <title>2026-08-11 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-11.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-11.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-14.html</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>入选 18 个仓库：tkkim-robot/safe_control、loco-3d/crocoddyl、gazebosim/gz-sim、bardhh/cbfkit、acados/acados</description>
-    </item>
-
-    <item>
-      <title>2026-07-13 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-13.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-13.html</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <description>入选 18 个仓库：loco-3d/crocoddyl、gazebosim/gz-sim、bardhh/cbfkit、acados/acados、JuliaControl/ModelPredictiveControl.jl</description>
     </item>
   </channel>
 </rss>
