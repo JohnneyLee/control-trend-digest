@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-08-18 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-18.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-18.html</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>入选 20 个仓库：bardhh/cbfkit、darshmenon/rosnav、krillinai/KrillinAI、meco-group/fatrop、behnamasadi/robotic_notes</description>
+    </item>
+
+    <item>
       <title>2026-08-17 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-17.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-17.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-20.html</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <description>入选 16 个仓库：PostHog/posthog、gazebosim/gz-sim、bardhh/cbfkit、darshmenon/rosnav、super-productivity/super-productivity</description>
-    </item>
-
-    <item>
-      <title>2026-07-19 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-19.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-19.html</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <description>入选 16 个仓库：PostHog/posthog、gazebosim/gz-sim、bardhh/cbfkit、darshmenon/rosnav、JuliaControl/ModelPredictiveControl.jl</description>
     </item>
   </channel>
 </rss>
