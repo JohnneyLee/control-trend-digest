@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-08-20 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-20.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-20.html</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>入选 18 个仓库：gazebosim/gz-sim、bardhh/cbfkit、behnamasadi/robotic_notes、JuliaControl/ModelPredictiveControl.jl、robotics-upo/hunav_gazebo_wrapper</description>
+    </item>
+
+    <item>
       <title>2026-08-19 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-19.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-19.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-22.html</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <description>入选 19 个仓库：iit-DLSLab/Quadruped-PyMPC、loco-3d/crocoddyl、bardhh/cbfkit、acados/acados、darshmenon/rosnav</description>
-    </item>
-
-    <item>
-      <title>2026-07-21 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-21.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-21.html</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>入选 16 个仓库：iit-DLSLab/Quadruped-PyMPC、PostHog/posthog、bardhh/cbfkit、acados/acados、darshmenon/rosnav</description>
     </item>
   </channel>
 </rss>
