@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-08-24 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-24.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-24.html</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <description>入选 16 个仓库：PostHog/posthog、bardhh/cbfkit、darshmenon/rosnav、JuliaControl/ModelPredictiveControl.jl、gustavomoers/CollisionAvoidance-Carla-DRL-MPC</description>
+    </item>
+
+    <item>
       <title>2026-08-23 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-23.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-08-23.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-26.html</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <description>入选 19 个仓库：gazebosim/gz-sim、bardhh/cbfkit、acados/acados、darshmenon/rosnav、ros-navigation/navigation2</description>
-    </item>
-
-    <item>
-      <title>2026-07-25 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-25.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-07-25.html</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description>入选 18 个仓库：gazebosim/gz-sim、bardhh/cbfkit、PX4/PX4-Autopilot、acados/acados、darshmenon/rosnav</description>
     </item>
   </channel>
 </rss>
