@@ -14,7 +14,7 @@
       <div>
         <p class="eyebrow">Daily Digest</p>
         <h1>2026-09-02 控制理论趋势日报</h1>
-        <p class="lead">候选仓库 127 个，入选 16 个。</p>
+        <p class="lead">候选仓库 129 个，入选 16 个。</p>
       </div>
       <div class="status">
         <span>RSS / Web</span>
@@ -73,27 +73,6 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/autowarefoundation/autoware">autowarefoundation/autoware</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦ROS2、自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">高 (high)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>12036</dd></div>
-        <div><dt>Forks</dt><dd>3710</dd></div>
-        <div><dt>语言</dt><dd>Dockerfile</dd></div>
-        <div><dt>最近更新</dt><dd>2026-09-01</dd></div>
-      </dl>
-      <div class="tags"><span>ROS2</span><span>autonomous driving</span></div>
-      <section><h3>对控制理论的意义</h3><p>ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口；autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
-      <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/behnamasadi/robotic_notes">behnamasadi/robotic_notes</a></h2>
           <p class="summary">这是一个机器人与控制方向的教程/笔记资料，聚焦ROS2、Gazebo 仿真、机器人、状态估计，主要用于完成定位、SLAM、VIO/LIO 或传感器状态估计，并为反馈控制提供状态量。</p>
         </div>
@@ -121,10 +100,10 @@
         <span class="priority">中 (medium)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>102</dd></div>
+        <div><dt>Stars</dt><dd>103</dd></div>
         <div><dt>Forks</dt><dd>4</dd></div>
         <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-09-01</dd></div>
+        <div><dt>最近更新</dt><dd>2026-09-02</dd></div>
       </dl>
       <div class="tags"><span>ROS2</span><span>Gazebo</span><span>robotics</span></div>
       <section><h3>对控制理论的意义</h3><p>ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口；Gazebo：提供闭环仿真环境，可在硬件测试前验证控制律；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
@@ -157,6 +136,27 @@
     <article class="detail">
       <header>
         <div>
+          <h2><a href="https://github.com/kunalnk123690/PathCover">kunalnk123690/PathCover</a></h2>
+          <p class="summary">这是一个开源机器人仿真平台，聚焦Gazebo 仿真、机器人、优化与最优控制，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
+        </div>
+        <span class="priority">中 (medium)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>24</dd></div>
+        <div><dt>Forks</dt><dd>2</dd></div>
+        <div><dt>语言</dt><dd>C++</dd></div>
+        <div><dt>最近更新</dt><dd>2026-09-02</dd></div>
+      </dl>
+      <div class="tags"><span>Gazebo</span><span>optimization</span><span>robotics</span></div>
+      <section><h3>对控制理论的意义</h3><p>Gazebo：提供闭环仿真环境，可在硬件测试前验证控制律；optimization：为 MPC、状态估计、逆动力学和约束控制提供数值求解基础；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
+      <section><h3>可插入的理论点</h3><p>加入 Gazebo world、被控对象插件、传感器噪声模型和 controller-in-the-loop benchmark；提取决策变量、约束、求解器容差和 warm-start 策略</p></section>
+      <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
+      <footer>search:Gazebo</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
           <h2><a href="https://github.com/AccelerationConsortium/Matterix">AccelerationConsortium/Matterix</a></h2>
           <p class="summary">这是一个Python 开源项目，聚焦机器人、仿真、数字孪生，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
         </div>
@@ -178,34 +178,13 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/Farama-Foundation/HighwayEnv">Farama-Foundation/HighwayEnv</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">中 (medium)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>3302</dd></div>
-        <div><dt>Forks</dt><dd>887</dd></div>
-        <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-09-01</dd></div>
-      </dl>
-      <div class="tags"><span>autonomous driving</span></div>
-      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
-      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/NVIDIA/skills">NVIDIA/skills</a></h2>
           <p class="summary">这是一个Python 开源项目，聚焦机器人、仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
         </div>
         <span class="priority">中 (medium)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>3172</dd></div>
+        <div><dt>Stars</dt><dd>3173</dd></div>
         <div><dt>Forks</dt><dd>370</dd></div>
         <div><dt>语言</dt><dd>Python</dd></div>
         <div><dt>最近更新</dt><dd>2026-09-01</dd></div>
@@ -278,6 +257,27 @@
       <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>search:ROS2</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/wheelos/apollo-lite">wheelos/apollo-lite</a></h2>
+          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
+        </div>
+        <span class="priority">中 (medium)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>169</dd></div>
+        <div><dt>Forks</dt><dd>36</dd></div>
+        <div><dt>语言</dt><dd>C++</dd></div>
+        <div><dt>最近更新</dt><dd>2026-09-02</dd></div>
+      </dl>
+      <div class="tags"><span>autonomous driving</span></div>
+      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
+      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
+      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
+      <footer>search:autonomous driving</footer>
     </article>
 
     <article class="detail">
