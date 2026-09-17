@@ -14,11 +14,11 @@
       <div>
         <p class="eyebrow">Daily Digest</p>
         <h1>2026-09-17 控制理论趋势日报</h1>
-        <p class="lead">候选仓库 140 个，入选 18 个。</p>
+        <p class="lead">候选仓库 140 个，入选 16 个。</p>
       </div>
       <div class="status">
         <span>RSS / Web</span>
-        <strong>18</strong>
+        <strong>16</strong>
         <span>cards</span>
       </div>
     </section>
@@ -37,7 +37,7 @@
         <span class="priority">高 (high)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>1502</dd></div>
+        <div><dt>Stars</dt><dd>1503</dd></div>
         <div><dt>Forks</dt><dd>474</dd></div>
         <div><dt>语言</dt><dd>C++</dd></div>
         <div><dt>最近更新</dt><dd>2026-09-16</dd></div>
@@ -121,7 +121,7 @@
         <span class="priority">高 (high)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>9016</dd></div>
+        <div><dt>Stars</dt><dd>9018</dd></div>
         <div><dt>Forks</dt><dd>5042</dd></div>
         <div><dt>语言</dt><dd>C++</dd></div>
         <div><dt>最近更新</dt><dd>2026-09-16</dd></div>
@@ -131,6 +131,27 @@
       <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>trending:c++，今日新增 1 stars</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/JuliaControl/ModelPredictiveControl.jl">JuliaControl/ModelPredictiveControl.jl</a></h2>
+          <p class="summary">这是一个模型预测控制软件包，聚焦模型预测控制、状态估计，主要用于构建和求解带约束的模型预测控制问题。</p>
+        </div>
+        <span class="priority">高 (high)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>135</dd></div>
+        <div><dt>Forks</dt><dd>9</dd></div>
+        <div><dt>语言</dt><dd>Julia</dd></div>
+        <div><dt>最近更新</dt><dd>2026-09-17</dd></div>
+      </dl>
+      <div class="tags"><span>MPC</span><span>state estimation</span></div>
+      <section><h3>对控制理论的意义</h3><p>MPC：支持带显式代价函数、预测时域和执行器约束的约束最优控制；state estimation：在噪声和部分观测条件下，为控制器提供反馈状态</p></section>
+      <section><h3>可插入的理论点</h3><p>写出预测模型、目标函数、约束、终端集合和求解器接口；加入估计器模块，给出过程模型、测量模型、协方差调参和残差检查</p></section>
+      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
+      <footer>search:MPC</footer>
     </article>
 
     <article class="detail">
@@ -152,27 +173,6 @@
       <section><h3>可插入的理论点</h3><p>加入估计器模块，给出过程模型、测量模型、协方差调参和残差检查；补充 LQR、极点配置、频率响应、离散化和非线性仿真的标准示例</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>search:control toolbox</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
-          <h2><a href="https://github.com/carla-simulator/carla">carla-simulator/carla</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦自动驾驶、仿真，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">中 (medium)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>14405</dd></div>
-        <div><dt>Forks</dt><dd>4693</dd></div>
-        <div><dt>语言</dt><dd>C++</dd></div>
-        <div><dt>最近更新</dt><dd>2026-09-16</dd></div>
-      </dl>
-      <div class="tags"><span>autonomous driving</span><span>simulation</span></div>
-      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中；simulation：支持扰动抑制、模型失配和控制器对比的可重复实验</p></section>
-      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器；定义闭环实验场景、扰动、评价指标和可复现实验种子</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
     </article>
 
     <article class="detail">
@@ -205,7 +205,7 @@
         <span class="priority">高 (high)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>552</dd></div>
+        <div><dt>Stars</dt><dd>553</dd></div>
         <div><dt>Forks</dt><dd>81</dd></div>
         <div><dt>语言</dt><dd>C++</dd></div>
         <div><dt>最近更新</dt><dd>2026-09-15</dd></div>
@@ -325,55 +325,13 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/utiasASRL/pyboreas">utiasASRL/pyboreas</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">中 (medium)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>122</dd></div>
-        <div><dt>Forks</dt><dd>15</dd></div>
-        <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-09-16</dd></div>
-      </dl>
-      <div class="tags"><span>autonomous driving</span></div>
-      <section><h3>对控制理论的意义</h3><p>autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
-      <section><h3>可插入的理论点</h3><p>围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
-          <h2><a href="https://github.com/pink-kinematics/pink_motions">pink-kinematics/pink_motions</a></h2>
-          <p class="summary">这是一个模型预测控制软件包，聚焦模型预测控制，主要用于构建和求解带约束的模型预测控制问题。</p>
-        </div>
-        <span class="priority">高 (high)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>20</dd></div>
-        <div><dt>Forks</dt><dd>0</dd></div>
-        <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-09-16</dd></div>
-      </dl>
-      <div class="tags"><span>MPC</span></div>
-      <section><h3>对控制理论的意义</h3><p>MPC：支持带显式代价函数、预测时域和执行器约束的约束最优控制</p></section>
-      <section><h3>可插入的理论点</h3><p>写出预测模型、目标函数、约束、终端集合和求解器接口</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:MPC</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/allenai/vla-evaluation-harness">allenai/vla-evaluation-harness</a></h2>
           <p class="summary">这是一个控制与机器人相关软件库，聚焦仿真，主要用于搭建仿真场景、运行被控对象，并做闭环控制器验证。</p>
         </div>
         <span class="priority">低 (low)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>611</dd></div>
+        <div><dt>Stars</dt><dd>613</dd></div>
         <div><dt>Forks</dt><dd>50</dd></div>
         <div><dt>语言</dt><dd>Python</dd></div>
         <div><dt>最近更新</dt><dd>2026-09-17</dd></div>
