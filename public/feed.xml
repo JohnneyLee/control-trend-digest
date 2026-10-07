@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-10-07 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-07.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-07.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>入选 18 个仓库：gazebosim/gz-sim、acados/acados、behnamasadi/robotic_notes、JuliaControl/ControlSystems.jl、JayaSaiKishanChapparam/altara</description>
+    </item>
+
+    <item>
       <title>2026-10-06 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-06.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-06.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-09-08.html</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
       <description>入选 15 个仓库：bardhh/cbfkit、acados/acados、blackcoffeerobotics/bcr_bot、SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator、JuliaControl/ModelPredictiveControl.jl</description>
-    </item>
-
-    <item>
-      <title>2026-09-07 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-09-07.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-09-07.html</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-      <description>入选 13 个仓库：bardhh/cbfkit、behnamasadi/robotic_notes、JuliaControl/ModelPredictiveControl.jl、pnnl/neuromancer、selfpatch/ros2_medkit</description>
     </item>
   </channel>
 </rss>
