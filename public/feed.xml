@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-10-10 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-10.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-10.html</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+      <description>入选 19 个仓库：gazebosim/gz-sim、acados/acados、behnamasadi/robotic_notes、JuliaControl/ControlSystems.jl、carla-simulator/carla</description>
+    </item>
+
+    <item>
       <title>2026-10-09 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-09.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-09.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-09-11.html</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <description>入选 13 个仓库：gazebosim/gz-sim、bardhh/cbfkit、acados/acados、blackcoffeerobotics/bcr_bot、darshmenon/rosnav</description>
-    </item>
-
-    <item>
-      <title>2026-09-10 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-09-10.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-09-10.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description>入选 15 个仓库：gazebosim/gz-sim、bardhh/cbfkit、acados/acados、darshmenon/rosnav、JuliaControl/ModelPredictiveControl.jl</description>
     </item>
   </channel>
 </rss>
