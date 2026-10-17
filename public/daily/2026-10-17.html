@@ -37,7 +37,7 @@
         <span class="priority">高 (high)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>13546</dd></div>
+        <div><dt>Stars</dt><dd>13550</dd></div>
         <div><dt>Forks</dt><dd>1479</dd></div>
         <div><dt>语言</dt><dd>TypeScript</dd></div>
         <div><dt>最近更新</dt><dd>2026-10-17</dd></div>
@@ -68,27 +68,6 @@
       <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；加入 Gazebo world、被控对象插件、传感器噪声模型和 controller-in-the-loop benchmark</p></section>
       <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
       <footer>search:Gazebo</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
-          <h2><a href="https://github.com/pyomeca/bioptim">pyomeca/bioptim</a></h2>
-          <p class="summary">这是一个控制与机器人相关软件库，聚焦机器人、模型预测控制、优化与最优控制、仿真，主要用于构建和求解带约束的模型预测控制问题。</p>
-        </div>
-        <span class="priority">高 (high)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>120</dd></div>
-        <div><dt>Forks</dt><dd>58</dd></div>
-        <div><dt>语言</dt><dd>Python</dd></div>
-        <div><dt>最近更新</dt><dd>2026-10-15</dd></div>
-      </dl>
-      <div class="tags"><span>MPC</span><span>optimization</span><span>robotics</span><span>simulation</span></div>
-      <section><h3>对控制理论的意义</h3><p>MPC：支持带显式代价函数、预测时域和执行器约束的约束最优控制；optimization：为 MPC、状态估计、逆动力学和约束控制提供数值求解基础；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
-      <section><h3>可插入的理论点</h3><p>写出预测模型、目标函数、约束、终端集合和求解器接口；提取决策变量、约束、求解器容差和 warm-start 策略</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:optimization</footer>
     </article>
 
     <article class="detail">
@@ -383,6 +362,27 @@
       <section><h3>可插入的理论点</h3><p>明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口；定义闭环实验场景、扰动、评价指标和可复现实验种子</p></section>
       <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
       <footer>search:simulation</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/hhhhzl/mdoc">hhhhzl/mdoc</a></h2>
+          <p class="summary">这是一个Python 开源项目，聚焦控制障碍函数，主要用于把安全约束或控制障碍函数接入动作层，形成可验证的安全过滤机制。</p>
+        </div>
+        <span class="priority">高 (high)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>28</dd></div>
+        <div><dt>Forks</dt><dd>1</dd></div>
+        <div><dt>语言</dt><dd>Python</dd></div>
+        <div><dt>最近更新</dt><dd>2026-10-17</dd></div>
+      </dl>
+      <div class="tags"><span>CBF</span></div>
+      <section><h3>对控制理论的意义</h3><p>CBF：把安全需求转化为可验证的正向不变性约束</p></section>
+      <section><h3>可插入的理论点</h3><p>加入二次规划安全过滤器，并给出 barrier 条件和可行输入集合</p></section>
+      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
+      <footer>search:optimization</footer>
     </article>
 
     <article class="detail">
