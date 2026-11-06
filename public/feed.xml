@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>2026-11-06 控制理论趋势日报</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-06.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-06.html</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>入选 20 个仓库：fraisasghar/Autonomous-Vehicle-State-Estimation-Optimal-Control.、JiaFeiMiao-K-Cat/DiscImageStudio、gazebosim/gz-sim、bardhh/cbfkit、omnilink-tech/omnisim</description>
+    </item>
+
+    <item>
       <title>2026-11-05 控制理论趋势日报</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-05.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-05.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-08.html</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
       <description>入选 20 个仓库：tkkim-robot/safe_control、gazebosim/gz-sim、MIT-REALM/dgppo、behnamasadi/robotic_notes、lyz678/Embodied-RobotSim</description>
-    </item>
-
-    <item>
-      <title>2026-10-07 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-07.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-07.html</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>入选 19 个仓库：gazebosim/gz-sim、acados/acados、behnamasadi/robotic_notes、JuliaControl/ControlSystems.jl、JayaSaiKishanChapparam/altara</description>
     </item>
   </channel>
 </rss>
