@@ -14,7 +14,7 @@
       <div>
         <p class="eyebrow">Daily Digest</p>
         <h1>2026-11-19 控制理论趋势日报</h1>
-        <p class="lead">候选仓库 119 个，入选 20 个。</p>
+        <p class="lead">候选仓库 118 个，入选 20 个。</p>
       </div>
       <div class="status">
         <span>RSS / Web</span>
@@ -79,7 +79,7 @@
         <span class="priority">高 (high)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>14646</dd></div>
+        <div><dt>Stars</dt><dd>14649</dd></div>
         <div><dt>Forks</dt><dd>4750</dd></div>
         <div><dt>语言</dt><dd>C++</dd></div>
         <div><dt>最近更新</dt><dd>2026-11-19</dd></div>
@@ -166,7 +166,7 @@
         <div><dt>Stars</dt><dd>335</dd></div>
         <div><dt>Forks</dt><dd>36</dd></div>
         <div><dt>语言</dt><dd>C++</dd></div>
-        <div><dt>最近更新</dt><dd>2026-11-18</dd></div>
+        <div><dt>最近更新</dt><dd>2026-11-19</dd></div>
       </dl>
       <div class="tags"><span>MPC</span><span>optimization</span><span>robotics</span></div>
       <section><h3>对控制理论的意义</h3><p>MPC：支持带显式代价函数、预测时域和执行器约束的约束最优控制；optimization：为 MPC、状态估计、逆动力学和约束控制提供数值求解基础；robotics：提供带物理约束的对象、任务和 benchmark，可用于反馈控制方法验证</p></section>
@@ -262,27 +262,6 @@
     <article class="detail">
       <header>
         <div>
-          <h2><a href="https://github.com/WATonomous/wato_monorepo">WATonomous/wato_monorepo</a></h2>
-          <p class="summary">这是一个自动驾驶仿真与研究平台，聚焦ROS2、自动驾驶，主要用于开展自动驾驶感知、规划、轨迹跟踪和安全验证实验。</p>
-        </div>
-        <span class="priority">中 (medium)</span>
-      </header>
-      <dl class="metrics">
-        <div><dt>Stars</dt><dd>128</dd></div>
-        <div><dt>Forks</dt><dd>14</dd></div>
-        <div><dt>语言</dt><dd>C</dd></div>
-        <div><dt>最近更新</dt><dd>2026-11-19</dd></div>
-      </dl>
-      <div class="tags"><span>ROS2</span><span>autonomous driving</span></div>
-      <section><h3>对控制理论的意义</h3><p>ROS2：把控制器设计接入可部署的机器人中间件和实时消息接口；autonomous driving：把感知、规划、轨迹跟踪和安全约束放在同一个高价值控制栈中</p></section>
-      <section><h3>可插入的理论点</h3><p>将方法封装为 ROS2 控制器节点，补充 launch 文件、bag 回放和可配置控制参数；围绕规划接口加入路径跟踪控制器、安全过滤器或状态估计器</p></section>
-      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
-      <footer>search:autonomous driving</footer>
-    </article>
-
-    <article class="detail">
-      <header>
-        <div>
           <h2><a href="https://github.com/BolunDai0216/DifferentiableOptimizationCBF">BolunDai0216/DifferentiableOptimizationCBF</a></h2>
           <p class="summary">这是一个安全控制研究原型，聚焦控制障碍函数、优化与最优控制，主要用于把安全约束或控制障碍函数接入动作层，形成可验证的安全过滤机制。</p>
         </div>
@@ -373,8 +352,8 @@
         <span class="priority">中 (medium)</span>
       </header>
       <dl class="metrics">
-        <div><dt>Stars</dt><dd>4073</dd></div>
-        <div><dt>Forks</dt><dd>540</dd></div>
+        <div><dt>Stars</dt><dd>4074</dd></div>
+        <div><dt>Forks</dt><dd>542</dd></div>
         <div><dt>语言</dt><dd>Python</dd></div>
         <div><dt>最近更新</dt><dd>2026-11-19</dd></div>
       </dl>
@@ -446,6 +425,27 @@
       <section><h3>可插入的理论点</h3><p>明确被控对象模型，并暴露轨迹跟踪、镇定或安全过滤的控制器接口；定义闭环实验场景、扰动、评价指标和可复现实验种子</p></section>
       <section><h3>Codex 实践判断</h3><p>有限可行 - 加入测试和控制导向场景后，可改造成示例项目</p></section>
       <footer>search:simulation</footer>
+    </article>
+
+    <article class="detail">
+      <header>
+        <div>
+          <h2><a href="https://github.com/RCL-NUS/NeuroMHE">RCL-NUS/NeuroMHE</a></h2>
+          <p class="summary">这是一个Python 开源项目，聚焦轨迹跟踪，主要用于实现轨迹跟踪实验，评估跟踪误差、扰动响应和闭环性能。</p>
+        </div>
+        <span class="priority">高 (high)</span>
+      </header>
+      <dl class="metrics">
+        <div><dt>Stars</dt><dd>87</dd></div>
+        <div><dt>Forks</dt><dd>8</dd></div>
+        <div><dt>语言</dt><dd>Python</dd></div>
+        <div><dt>最近更新</dt><dd>2026-11-12</dd></div>
+      </dl>
+      <div class="tags"><span>trajectory tracking</span></div>
+      <section><h3>对控制理论的意义</h3><p>trajectory tracking：直接对应跟踪误差动力学、鲁棒裕度和闭环性能指标</p></section>
+      <section><h3>可插入的理论点</h3><p>加入参考轨迹生成、跟踪误差曲线，以及扰动条件下的控制器对比实验</p></section>
+      <section><h3>Codex 实践判断</h3><p>可以 - Codex 可将其改造成可运行的控制器、仿真器、估计器或 benchmark wrapper</p></section>
+      <footer>search:trajectory tracking</footer>
     </article></section></main>
 </body>
 </html>
