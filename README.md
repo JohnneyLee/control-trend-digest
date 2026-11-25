@@ -1,4 +1,12 @@
-# Personal Control-Theory GitHub Trend Digest
+# 四足与人形机器人强化学习运动控制日报
+
+主榜仅收有强化学习训练、评估或部署入口的四足／人形运动控制项目。重点包括步态、速度跟踪、平衡、全身动作跟踪、延迟和抗扰。轮式导航、无人机、纯仿真器、纯模型库和资料列表不作为主榜条目。
+
+当前使用 GitHub 仓库检索加重点跟踪清单，首先核对 README 与实现入口，再检查默认分支近期提交是否触及训练、动作策略、控制器或相关配置等文件。没有符合条件的更新可少发或留空；不按星数设最低门槛。提交范围由文件路径判断，不等于独立完成代码审查、实验复现或实机验证。实机声明和仿真依据只按文档标注。发布路径、RSS、通知渠道、历史 Markdown 和原定时计划保持不变。
+
+新规则配置位于 `config/control-keywords.json` 的 `leggedRL` 段。旧版说明保留如下，适用于旧刊与移除该段后恢复的旧模式。
+
+## Legacy: Personal Control-Theory GitHub Trend Digest
 
 This is a personal research-tool project for tracking GitHub repositories that
 matter to control theory, robotics, and autonomous systems. It is a focused

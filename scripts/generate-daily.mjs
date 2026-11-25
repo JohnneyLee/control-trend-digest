@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import {collectLegged, renderLegged} from './legged-rl.mjs';
 
 const ROOT = process.cwd();
 const CONFIG_PATH = path.join(ROOT, 'config', 'control-keywords.json');
@@ -31,28 +32,63 @@ const runDate = args.date || formatDate(new Date(), config.timezone || 'UTC');
 const outputDir = args.outputDir || config.outputDir || 'daily';
 const outputPath = path.join(ROOT, outputDir, `${runDate}.md`);
 
-const trends = await collectTrendingCandidates(config);
-const searchCandidates = await collectSearchSupplement(config, runDate);
-const candidates = dedupeByName([...trends, ...searchCandidates]);
-const enriched = await enrichAndClassify(candidates, config);
-const selected = rankCandidates(enriched)
-  .filter(repo => repo.matchedKeywords.length >= (config.minKeywordMatches || 1))
-  .slice(0, config.maxItems || 20);
-
-const markdown = renderMarkdown({
-  date: runDate,
-  timezone: config.timezone || 'UTC',
-  selected,
-  rawCount: candidates.length,
-  route: 'fork/adapt vitalets/github-trending-repos'
-});
-
-if (args.dryRun) {
-  console.log(markdown);
+if (config.leggedRL) {
+  const since = shiftDate(runDate, -config.leggedRL.lookbackDays);
+  const until = new Date(Math.min(Date.now(), Date.parse(shiftDate(runDate, 1) + 'T00:00:00Z') - 1)).toISOString();
+  const seen = await seenLeggedUpdates(path.resolve(ROOT, config.outputDir || 'daily'), runDate, since);
+  const result = await collectLegged({config: config.leggedRL, since, until, fetchJson, fetchText, seen});
+  const markdown = renderLegged({title: config.site.title, date: runDate, timezone: config.timezone, since, ...result});
+  if (args.dryRun) {
+    console.log(markdown);
+  } else {
+    if (result.errorCount && await fs.stat(outputPath).then(() => true, e => {
+      if (e.code === 'ENOENT') return false;
+      throw e;
+    })) throw Error('Partial data; existing edition preserved');
+    await fs.mkdir(path.dirname(outputPath), {recursive:true});
+    await fs.writeFile(outputPath, markdown, 'utf8');
+    console.log(`Wrote ${path.relative(ROOT, outputPath)}`);
+  }
 } else {
-  await fs.mkdir(path.dirname(outputPath), {recursive: true});
-  await fs.writeFile(outputPath, markdown, 'utf8');
-  console.log(`Wrote ${path.relative(ROOT, outputPath)}`);
+  const trends = await collectTrendingCandidates(config);
+  const searchCandidates = await collectSearchSupplement(config, runDate);
+  const candidates = dedupeByName([...trends, ...searchCandidates]);
+  const enriched = await enrichAndClassify(candidates, config);
+  const selected = rankCandidates(enriched)
+    .filter(repo => repo.matchedKeywords.length >= (config.minKeywordMatches || 1))
+    .slice(0, config.maxItems || 20);
+
+  const markdown = renderMarkdown({
+    date: runDate,
+    timezone: config.timezone || 'UTC',
+    selected,
+    rawCount: candidates.length,
+    route: 'fork/adapt vitalets/github-trending-repos'
+  });
+
+  if (args.dryRun) {
+    console.log(markdown);
+  } else {
+    await fs.mkdir(path.dirname(outputPath), {recursive: true});
+    await fs.writeFile(outputPath, markdown, 'utf8');
+    console.log(`Wrote ${path.relative(ROOT, outputPath)}`);
+  }
+
+}
+
+async function seenLeggedUpdates(dir, date, since) {
+  const files = await fs.readdir(dir).catch(e => {
+    if (e.code === 'ENOENT') return [];
+    throw e;
+  });
+  const seen = new Set();
+  for (const file of files) {
+    if (!/^\d{4}-\d{2}-\d{2}\.md$/.test(file) || file.slice(0,10) >= date ||
+        file.slice(0,10) < since) continue;
+    const md = await fs.readFile(path.join(dir,file), 'utf8');
+    for (const line of md.matchAll(/^- 更新提交：(https:\/\/github\.com\/[^\s]+)$/gm)) seen.add(line[1]);
+  }
+  return seen;
 }
 
 async function collectTrendingCandidates(cfg) {

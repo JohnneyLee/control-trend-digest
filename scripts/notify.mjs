@@ -12,7 +12,9 @@ if (!latest) {
   process.exit(0);
 }
 
-const title = `${latest} 控制理论 GitHub 趋势日报已更新`;
+const issue = await fs.readFile(path.join(DAILY_DIR, `${latest}.md`), 'utf8');
+const heading = issue.match(/^# (.+)$/m)?.[1];
+const title = heading ? `${heading} 已更新` : `${latest} 控制理论 GitHub 趋势日报已更新`;
 const url = siteUrl ? `${siteUrl}/daily/${latest}.html` : `daily/${latest}.html`;
 const text = `${title}\n${url}`;
 

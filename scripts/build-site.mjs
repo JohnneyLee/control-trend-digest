@@ -57,6 +57,9 @@ function parseDailyMarkdown(date, markdown) {
     markdown,
     candidateCount,
     selectedCount,
+    heading: markdown.match(/^# (.+)$/m)?.[1] || `${date} 控制理论趋势日报`,
+    isLegged: valueFromLine(markdown, '主题') === '四足机器人、人形机器人',
+    dataNote: valueFromLine(markdown, '数据说明'),
     repos
   };
 }
@@ -83,7 +86,10 @@ function parseRepoBlock(block) {
     insertion: valueFromLine(block, '可插入的理论点') || '',
     codex: valueFromLine(block, 'Codex 是否能转成实践项目') || '',
     priority: valueFromLine(block, '优先级') || '',
-    source: valueFromLine(block, '来源') || ''
+    source: valueFromLine(block, '来源') || '',
+    groups: splitList(valueFromLine(block, '组别')),
+    fields: ['机器人型号', '策略输出', '验证阶段', '复现入口', '更新提交', '提交说明']
+      .map(label => [label, valueFromLine(block, label)]).filter(([, value]) => value)
   };
 }
 
@@ -119,7 +125,10 @@ function renderIndex(issues) {
         <a class="button" href="feed.xml">订阅 RSS</a>
         <a class="button" href="daily/${latest.date}.md">查看 Markdown 源文件</a>
       </section>
-      <section class="grid">${latestRepos.map(renderRepoCard).join('\n')}</section>
+      ${latest.isLegged ? ['四足机器人','人形机器人'].map(group => {
+        const list = latestRepos.filter(repo => repo.groups.includes(group));
+        return `<section><h2>${group}</h2>${list.length ? `<div class="grid">${list.map(renderRepoCard).join('\n')}</div>` : '<p>未筛到符合条件的项目。</p>'}</section>`;
+      }).join('') : `<section class="grid">${latestRepos.map(renderRepoCard).join('\n')}</section>`}
       <section class="archive">
         <h2>历史日报</h2>
         ${renderArchive(issues)}
@@ -134,7 +143,7 @@ function renderDaily(issue) {
     <section class="hero compact">
       <div>
         <p class="eyebrow">Daily Digest</p>
-        <h1>${escapeHtml(issue.date)} 控制理论趋势日报</h1>
+        <h1>${escapeHtml(issue.heading)}</h1>
         <p class="lead">候选仓库 ${escapeHtml(issue.candidateCount || '未知')} 个，入选 ${escapeHtml(issue.selectedCount)} 个。</p>
       </div>
       <div class="status">
@@ -148,8 +157,12 @@ function renderDaily(issue) {
       <a class="button" href="../feed.xml">订阅 RSS</a>
       <a class="button" href="${issue.date}.md">查看 Markdown 源文件</a>
     </section>
-    <section class="list">${issue.repos.map(renderRepoDetail).join('\n')}</section>`;
-  return pageShell({pageTitle: `${issue.date} - ${title}`, body, root: '..'});
+    ${issue.dataNote ? `<p class="lead">${escapeHtml(issue.dataNote)}</p>` : ''}
+    ${issue.isLegged ? ['四足机器人','人形机器人'].map(group => {
+      const list = issue.repos.filter(repo => repo.groups.includes(group));
+      return `<section class="list"><h2>${group}</h2>${list.length ? list.map(renderRepoDetail).join('\n') : '<p>未筛到符合条件的项目。</p>'}</section>`;
+    }).join('') : `<section class="list">${issue.repos.map(renderRepoDetail).join('\n')}</section>`}`;
+  return pageShell({pageTitle: issue.heading, body, root: '..'});
 }
 
 function renderRepoCard(repo) {
@@ -186,9 +199,12 @@ function renderRepoDetail(repo) {
         <div><dt>最近更新</dt><dd>${escapeHtml(repo.updated)}</dd></div>
       </dl>
       <div class="tags">${repo.keywords.map(tag => `<span>${escapeHtml(tag)}</span>`).join('')}</div>
-      <section><h3>对控制理论的意义</h3><p>${escapeHtml(repo.theory)}</p></section>
+      ${repo.fields.length ? repo.fields.map(([label,value]) => {
+        const link = /^https:\/\/github\.com\/[A-Za-z0-9_.\/#-]+$/.test(value);
+        return `<section><h3>${escapeHtml(label)}</h3><p>${link ? `<a href="${escapeAttr(value)}">查看 GitHub</a>` : escapeHtml(value)}</p></section>`;
+      }).join('') : `<section><h3>对控制理论的意义</h3><p>${escapeHtml(repo.theory)}</p></section>
       <section><h3>可插入的理论点</h3><p>${escapeHtml(repo.insertion)}</p></section>
-      <section><h3>Codex 实践判断</h3><p>${escapeHtml(repo.codex)}</p></section>
+      <section><h3>Codex 实践判断</h3><p>${escapeHtml(repo.codex)}</p></section>`}
       <footer>${escapeHtml(repo.source)}</footer>
     </article>`;
 }
@@ -229,7 +245,7 @@ function renderRss(issues) {
     const topRepos = issue.repos.slice(0, 5).map(repo => repo.name).join('、');
     return `
     <item>
-      <title>${xml(`${issue.date} 控制理论趋势日报`)}</title>
+      <title>${xml(issue.heading)}</title>
       <link>${xml(link)}</link>
       <guid>${xml(link)}</guid>
       <pubDate>${new Date(`${issue.date}T00:00:00Z`).toUTCString()}</pubDate>

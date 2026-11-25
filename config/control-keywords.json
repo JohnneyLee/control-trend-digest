@@ -2,10 +2,46 @@
   "timezone": "Asia/Singapore",
   "outputDir": "daily",
   "site": {
-    "title": "个人控制理论 GitHub 趋势日报",
-    "description": "个人使用的控制理论趋势消化工具，聚焦 ROS2、Gazebo、MPC、CBF、Lyapunov、状态估计、自动驾驶和仿真。",
+    "title": "四足与人形机器人强化学习运动控制日报",
+    "description": "跟踪四足和人形机器人的强化学习步态、速度跟踪、平衡、全身动作控制及相关实机验证。",
     "outputDir": "public",
     "baseUrl": ""
+  },
+  "leggedRL": {
+    "lookbackDays": 7,
+    "perSearch": 12,
+    "maxPerGroup": 4,
+    "searches": [
+      {
+        "group": "四足机器人",
+        "label": "四足 · 强化学习",
+        "query": "\"quadruped\" \"reinforcement learning\""
+      },
+      {
+        "group": "四足机器人",
+        "label": "四足 · Go2 运动控制",
+        "query": "\"go2\" \"locomotion\""
+      },
+      {
+        "group": "人形机器人",
+        "label": "人形 · 强化学习",
+        "query": "\"humanoid\" \"reinforcement learning\" \"locomotion\""
+      },
+      {
+        "group": "人形机器人",
+        "label": "人形 · 全身运动控制",
+        "query": "\"humanoid\" \"motion tracking\""
+      }
+    ],
+    "watchlist": [
+      "amazon-far/RPL",
+      "amazon-far/holosoma",
+      "unitreerobotics/unitree_rl_lab",
+      "GaganBhusal/unitree-go2-sim2real",
+      "Maxence-Santos/sim-to-real-rl",
+      "Improbable-AI/walk-these-ways",
+      "google-deepmind/mujoco_playground"
+    ]
   },
   "maxItems": 20,
   "minKeywordMatches": 1,
