@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>个人控制理论 GitHub 趋势日报</title>
+    <title>四足与人形机器人强化学习运动控制日报</title>
     <link>https://JohnneyLee.github.io/control-trend-digest</link>
-    <description>个人使用的控制理论趋势消化工具，聚焦 ROS2、Gazebo、MPC、CBF、Lyapunov、状态估计、自动驾驶和仿真。</description>
+    <description>跟踪四足和人形机器人的强化学习步态、速度跟踪、平衡、全身动作控制及相关实机验证。</description>
     <language>zh-CN</language>
     
     <item>
-      <title>2026-11-24 控制理论趋势日报</title>
+      <title>四足与人形机器人强化学习运动控制日报 - 2026-11-25</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-25.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-25.html</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>入选 5 个仓库：fermartinezm/quadrucat、amazon-far/holosoma、Interactics/implement_of_bionic_algorithm、Raxirex/simulatics、AbduEhab/r1-isaaclab</description>
+    </item>
+
+    <item>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-24</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-24.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-24.html</guid>
       <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
@@ -15,7 +23,7 @@
     </item>
 
     <item>
-      <title>2026-11-23 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-23</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-23.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-23.html</guid>
       <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
@@ -23,7 +31,7 @@
     </item>
 
     <item>
-      <title>2026-11-22 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-22</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-22.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-22.html</guid>
       <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
@@ -31,7 +39,7 @@
     </item>
 
     <item>
-      <title>2026-11-21 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-21</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-21.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-21.html</guid>
       <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
@@ -39,7 +47,7 @@
     </item>
 
     <item>
-      <title>2026-11-20 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-20</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-20.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-20.html</guid>
       <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
@@ -47,7 +55,7 @@
     </item>
 
     <item>
-      <title>2026-11-19 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-19</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-19.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-19.html</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
@@ -55,7 +63,7 @@
     </item>
 
     <item>
-      <title>2026-11-18 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-18</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-18.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-18.html</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
@@ -63,7 +71,7 @@
     </item>
 
     <item>
-      <title>2026-11-17 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-17</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-17.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-17.html</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
@@ -71,7 +79,7 @@
     </item>
 
     <item>
-      <title>2026-11-16 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-16</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-16.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-16.html</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
@@ -79,7 +87,7 @@
     </item>
 
     <item>
-      <title>2026-11-15 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-15</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-15.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-15.html</guid>
       <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
@@ -87,7 +95,7 @@
     </item>
 
     <item>
-      <title>2026-11-14 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-14</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-14.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-14.html</guid>
       <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
@@ -95,7 +103,7 @@
     </item>
 
     <item>
-      <title>2026-11-13 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-13</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-13.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-13.html</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
@@ -103,7 +111,7 @@
     </item>
 
     <item>
-      <title>2026-11-12 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-12</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-12.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-12.html</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
@@ -111,7 +119,7 @@
     </item>
 
     <item>
-      <title>2026-11-11 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-11</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-11.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-11.html</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
@@ -119,7 +127,7 @@
     </item>
 
     <item>
-      <title>2026-11-10 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-10</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-10.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-10.html</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
@@ -127,7 +135,7 @@
     </item>
 
     <item>
-      <title>2026-11-09 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-09</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-09.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-09.html</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
@@ -135,7 +143,7 @@
     </item>
 
     <item>
-      <title>2026-11-08 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-08</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-08.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-08.html</guid>
       <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
@@ -143,7 +151,7 @@
     </item>
 
     <item>
-      <title>2026-11-07 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-07</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-07.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-07.html</guid>
       <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
@@ -151,7 +159,7 @@
     </item>
 
     <item>
-      <title>2026-11-06 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-06</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-06.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-06.html</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
@@ -159,7 +167,7 @@
     </item>
 
     <item>
-      <title>2026-11-05 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-05</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-05.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-05.html</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
@@ -167,7 +175,7 @@
     </item>
 
     <item>
-      <title>2026-11-04 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-04</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-04.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-04.html</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
@@ -175,7 +183,7 @@
     </item>
 
     <item>
-      <title>2026-11-03 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-03</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-03.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-03.html</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
@@ -183,7 +191,7 @@
     </item>
 
     <item>
-      <title>2026-11-02 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-02</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-02.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-02.html</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
@@ -191,7 +199,7 @@
     </item>
 
     <item>
-      <title>2026-11-01 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-11-01</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-01.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-01.html</guid>
       <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
@@ -199,7 +207,7 @@
     </item>
 
     <item>
-      <title>2026-10-31 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-10-31</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-31.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-31.html</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
@@ -207,7 +215,7 @@
     </item>
 
     <item>
-      <title>2026-10-30 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-10-30</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-30.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-30.html</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
@@ -215,7 +223,7 @@
     </item>
 
     <item>
-      <title>2026-10-29 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-10-29</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-29.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-29.html</guid>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
@@ -223,7 +231,7 @@
     </item>
 
     <item>
-      <title>2026-10-28 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-10-28</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-28.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-28.html</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
@@ -231,19 +239,11 @@
     </item>
 
     <item>
-      <title>2026-10-27 控制理论趋势日报</title>
+      <title>控制理论导向 GitHub 趋势日报 - 2026-10-27</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-27.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-27.html</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
       <description>入选 20 个仓库：gazebosim/gz-sim、bardhh/cbfkit、acados/acados、SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator、mohammadrezwankhan/matlab-simulink-energy-lab</description>
-    </item>
-
-    <item>
-      <title>2026-10-26 控制理论趋势日报</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-26.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-26.html</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <description>入选 20 个仓库：SS47816/fiss_planner、fraisasghar/Autonomous-Vehicle-State-Estimation-Optimal-Control.、darshmenon/quadruped-robotics-stack、gazebosim/gz-sim、bardhh/cbfkit</description>
     </item>
   </channel>
 </rss>
