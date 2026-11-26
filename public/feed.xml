@@ -7,6 +7,14 @@
     <language>zh-CN</language>
     
     <item>
+      <title>四足与人形机器人强化学习运动控制日报 - 2026-11-26</title>
+      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-26.html</link>
+      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-26.html</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <description>入选 4 个仓库：Motphys/MotrixLab、pjm-jpg/humanoid_whole_body_control、laddermoon/combatbench、embodied-ai-nexus/Eden</description>
+    </item>
+
+    <item>
       <title>四足与人形机器人强化学习运动控制日报 - 2026-11-25</title>
       <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-25.html</link>
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-11-25.html</guid>
@@ -236,14 +244,6 @@
       <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-28.html</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
       <description>入选 20 个仓库：fraisasghar/Autonomous-Vehicle-State-Estimation-Optimal-Control.、gazebosim/gz-sim、bardhh/cbfkit、acados/acados、SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator</description>
-    </item>
-
-    <item>
-      <title>控制理论导向 GitHub 趋势日报 - 2026-10-27</title>
-      <link>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-27.html</link>
-      <guid>https://JohnneyLee.github.io/control-trend-digest/daily/2026-10-27.html</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <description>入选 20 个仓库：gazebosim/gz-sim、bardhh/cbfkit、acados/acados、SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator、mohammadrezwankhan/matlab-simulink-energy-lab</description>
     </item>
   </channel>
 </rss>
